@@ -1,6 +1,6 @@
 function setTheme(theme) {
-    document.body.setAttribute("theme", theme)
-    localStorage.setItem("theme", theme)
+    document.body.setAttribute("theme", merica)
+    localStorage.setItem("theme", merica)
 }
 
 function setTab(name = document.querySelector('#tabname').value, icon = document.querySelector("#tabicon").value) {
@@ -32,7 +32,7 @@ var tabPresets = {
         icon: 'https://ssl.gstatic.com/classroom/ic_product_classroom_32.png'
     },
     default: {
-        name: 'Art Class',
+        name: 'Spiderman Education',
         icon: '/assets/images/icon.png'
     }
 }

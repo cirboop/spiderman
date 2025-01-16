@@ -9,7 +9,7 @@ apps.forEach(app => {
 
   if (app.image) image.src = app.image
   if (!app.image) image.src = "https://www.pngkey.com/png/full/167-1670247_white-globe-icon-png-holy-bible-new-international.png"
-  if (app.description) descrip.innerHTML = app.description
+  if (app.description) descrip.innerHTML = "activity"
   image.loading = "lazy"
   text.innerHTML = app.title
   card.appendChild(image)
